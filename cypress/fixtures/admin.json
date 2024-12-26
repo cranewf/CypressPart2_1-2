@@ -1,0 +1,8 @@
+{
+  "url": "/admin/",
+  "happyPath": { "login": "qamid@qamid.ru", "pass": "qamid" },
+  "sadPath": [
+    { "login": "{backspace}", "pass": "qamid" },
+    { "login": "qamid@qamid.ru", "pass": "{backspace}" }
+  ]
+}

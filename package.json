@@ -1,0 +1,19 @@
+{
+  "name": "cypresspath2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "open": "npx cypress open",
+    "cypress1": "cypress run --headed --browser chrome",
+    "cypress2": "cypress run --headless --browser chrome",
+    "cloud": "npx cypress run --record --key 4c2a1b83-4583-456f-a3c4-9eb4dcee61b2"
+  },
+  "keywords": [],
+  "author": "Vadim Zhuravlev",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^13.17.0"
+  }
+}
